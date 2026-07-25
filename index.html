@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ========================================== -->
+    <!-- STRICT SEO & METADATA (Anticipating Needs) -->
+    <!-- ========================================== -->
+    <title>Ecos del Sur | Una Tormenta de Amor y Dolor</title>
+    <meta name="description" content="Las Musas Colectivo presenta Ecos del Sur. El nuevo sonido. Donde el romance del acordeón y la tuba invitan al baile.">
+    <meta name="keywords" content="Ecos del Sur, Las Musas Colectivo, Tormenta, Regional Mexicano">
+    <meta name="author" content="Las Musas Colectivo LLC">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (For pristine link previews on WhatsApp, Facebook, iMessage) -->
+    <meta property="og:title" content="Ecos del Sur | Una Tormenta de Amor y Dolor">
+    <meta property="og:description" content="El nuevo sonido híbrido del acordeón y la furia de la tuba.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.lasmusascolectivo.com">
+    <meta property="og:image" content="https://www.lasmusascolectivo.com/assets/og-image-tuba-storm.jpg"> <!-- Placeholder for your AI image -->
+
+    <!-- ========================================== -->
+    <!-- TAILWIND CSS (For rapid, responsive design)-->
+    <!-- ========================================== -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandDark: '#0a0a0a',
+                        brandAmber: '#f59e0b',
+                        brandBlue: '#3b82f6'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom Glowing Effects for Visual Impact */
+        .glow-amor { text-shadow: 0 0 15px rgba(245, 158, 11, 0.8); }
+        .glow-dolor { text-shadow: 0 0 15px rgba(59, 130, 246, 0.8); }
+        .bg-cinematic {
+            background: linear-gradient(to bottom, rgba(10, 10, 10, 0.8), rgba(10, 10, 10, 1)), 
+                        url('https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=2000&auto=format&fit=crop'); /* Placeholder concert background */
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-brandDark text-gray-100 font-sans selection:bg-brandAmber selection:text-black">
+
+    <!-- ========================================== -->
+    <!-- 1. HERO SECTION                            -->
+    <!-- ========================================== -->
+    <header class="relative min-h-screen flex items-center justify-center text-center bg-cinematic px-4">
+        <div class="z-10 max-w-4xl">
+            <p class="text-sm md:text-base uppercase tracking-[0.3em] text-gray-400 mb-4">Las Musas Colectivo Presenta</p>
+            <h1 class="text-6xl md:text-8xl font-extrabold tracking-tighter mb-2 text-white">ECOS DEL SUR</h1>
+            <h2 class="text-2xl md:text-4xl font-light mb-8">Una Tormenta de <span class="text-brandAmber glow-amor font-semibold">Amor</span> y <span class="text-brandBlue glow-dolor font-semibold">Dolor</span>.</h2>
+            <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-10">
+                Banda Ecos del Sur. El nuevo sonido. Donde el romance del acordeón y la tuba invitan al baile.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#casting" class="bg-white text-black px-8 py-4 text-lg font-bold uppercase tracking-wider hover:bg-brandAmber transition duration-300">⚡ Entra a la Tormenta</a>
+                <a href="#concepto" class="border border-gray-500 text-white px-8 py-4 text-lg font-bold uppercase tracking-wider hover:border-white transition duration-300">🎵 Escucha el Concepto</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========================================== -->
+    <!-- 2. CONCEPT SECTION                         -->
+    <!-- ========================================== -->
+    <section id="concepto" class="py-24 px-6 md:px-12 max-w-6xl mx-auto text-center">
+        <h3 class="text-4xl font-bold mb-6 tracking-wide uppercase">Dos Actos. Una Experiencia.</h3>
+        <p class="text-xl text-gray-400 mb-16 max-w-3xl mx-auto">
+            No es solo un concierto, es una experiencia. Una fusión donde la pasión del Crossover se encuentra con el peso del Regional Mexicano.
+        </p>
+        
+        <div class="grid md:grid-cols-2 gap-12 text-left">
+            <div class="p-8 border border-brandAmber/30 bg-black/50 hover:border-brandAmber transition duration-300">
+                <h4 class="text-3xl text-brandAmber glow-amor font-bold mb-4 uppercase">Acto I: Amor</h4>
+                <p class="text-gray-300 text-lg">Ritmos que seducen. Cumbia, Tex-Mex, requintos dulces y baile a media luz. La calidez de la arena antes de la tempestad.</p>
+            </div>
+            <div class="p-8 border border-brandBlue/30 bg-black/50 hover:border-brandBlue transition duration-300">
+                <h4 class="text-3xl text-brandBlue glow-dolor font-bold mb-4 uppercase">Acto II: Dolor</h4>
+                <p class="text-gray-300 text-lg">Metales que rugen. Corridos de orgullo, despecho y zapateado pesado. La fuerza implacable de la tuba desatando la tormenta.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 3. CASTING / FORM SECTION (Firestore Ready)-->
+    <!-- ========================================== -->
+    <section id="casting" class="py-24 bg-neutral-900 px-4">
+        <div class="max-w-3xl mx-auto text-center">
+            <h3 class="text-4xl font-bold mb-4 uppercase tracking-wide">¿Tienes la garra para dominar la arena?</h3>
+            <p class="text-gray-400 text-lg mb-10">No buscamos cantantes, buscamos maestros del escenario. Casting abierto para talento bilingüe de élite.</p>
+            
+            <form id="castingForm" class="flex flex-col gap-6 text-left">
+                <input type="text" id="name" placeholder="Nombre Completo" required class="p-4 bg-black border border-gray-700 text-white focus:outline-none focus:border-white">
+                <input type="text" id="specialty" placeholder="Especialidad (Ej: Soprano, Acordeón, Bailarín)" required class="p-4 bg-black border border-gray-700 text-white focus:outline-none focus:border-white">
+                <input type="url" id="demoLink" placeholder="Link a tu Demo (YouTube, Vampr, etc.)" required class="p-4 bg-black border border-gray-700 text-white focus:outline-none focus:border-white">
+                <button type="submit" class="bg-white text-black font-bold text-xl py-4 hover:bg-brandBlue transition duration-300 uppercase tracking-widest">🎤 Subir mi Demo</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 4. VIP / BOOKING SECTION (Auth Ready)      -->
+    <!-- ========================================== -->
+    <footer class="py-16 border-t border-gray-800 text-center px-4">
+        <h4 class="text-2xl font-bold mb-2 uppercase tracking-wide">Acceso Industria & Booking</h4>
+        <p class="text-gray-500 mb-6">Portal exclusivo para promotores, inversionistas y directores musicales.</p>
+        <button class="border border-gray-600 text-gray-300 px-6 py-3 font-semibold uppercase tracking-wider hover:bg-gray-800 transition duration-300">
+            🔐 Iniciar Sesión VIP
+        </button>
+        <p class="text-sm text-gray-600 mt-12">&copy; 2026 Las Musas Colectivo LLC. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- ========================================== -->
+    <!-- FIREBASE INITIALIZATION & SCRIPTS          -->
+    <!-- ========================================== -->
+    <!-- Add your Firebase SDKs here later -->
+    <script type="module">
+        // Placeholder for Firebase config and Firestore logic
+        document.getElementById('castingForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Formulario listo para conectar con Firebase Firestore. ¡Excelente trabajo, Jefe!');
+        });
+    </script>
+</body>
+</html>
